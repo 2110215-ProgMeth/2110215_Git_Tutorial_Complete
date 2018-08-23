@@ -1,4 +1,5 @@
 
+
 public class Rectangle {
 	
 	private int width;
@@ -12,5 +13,10 @@ public class Rectangle {
 	
 	public int getArea() {
 		return this.width * this.height;
+	}
+	
+	@Override
+	public String toString() {
+		return "Width: " + width + " Height: " + height + " Area: " + getArea();
 	}
 }
