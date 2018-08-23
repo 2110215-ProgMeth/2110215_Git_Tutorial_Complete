@@ -8,14 +8,22 @@ public class Rectangle {
 	
 	public Rectangle(int width, int height) {
 		super();
-		this.width = width;
-		this.height = height;
+		this.width = Math.max(1, width);
+		this.height = Math.max(1, height);
 	}
 	
 	public int getArea() {
 		return this.width * this.height;
 	}
 	
+	public int getWidth() {
+		return width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
 	@Override
 	public String toString() {
 		return "Width: " + width + " Height: " + height + " Area: " + getArea();
