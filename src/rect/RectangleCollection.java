@@ -1,3 +1,4 @@
+package rect;
 
 public class RectangleCollection {
 	
