@@ -6,6 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import rect.Rectangle;
+
 
 public class TestRectangle {
 
@@ -18,7 +20,7 @@ public class TestRectangle {
 	}
 
 	/**
-	 * With and height are always more than 1
+	 * Width and height are always more than 1
 	 */
 	@Test
 	void testConstructor1() {
